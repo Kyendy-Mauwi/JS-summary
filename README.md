@@ -1,4 +1,4 @@
-# JS-summary
+# Let's learn Java Script 👍
 
 :small_orange_diamond: JavaScript is the world's most popular programming language.
 
