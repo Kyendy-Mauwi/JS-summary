@@ -81,3 +81,16 @@ Are a grp od characters surrounded by single or double quotes.
 
 let location = 'Nairobi, Kenya';
 let location = "Nairobi, Kenya";
+---------------------------------------------------------------------------
+  
+#Arithmetic Operators
+/*
++ addition, - subtraction, * multiplication, / division & % modulo
+*/
+
+5 + 5 //addition
+100 - 70 //subtraction
+6 * 4 //multiplication
+20 / 5 //division
+90 % 3 //mudulo
+---------------------------------------------------------------------------
