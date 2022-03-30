@@ -29,3 +29,28 @@ console.log(message.length);
 
 console.log('Kyendy'.length);
 // Prints: 5
+---------------------------------------------------------------------------
+  
+#Data Instances
+/*
+A program keeps track of a new peice of data in an instance of the data type.
+An instance is an individual case of a data type.
+*/
+---------------------------------------------------------------------------
+  
+#Booleans
+/*
+Are primitive data types, they can either be ```true``` or ```false```.
+*/
+
+let goToWork = true;
+let haveDinner = false;
+---------------------------------------------------------------------------
+  
+#Math.random
+/*
+Is a func that returns floating-point random numbers in the range 0 (included) to 1 (not included)
+*/
+
+console.log(Math.random());
+// Prints: 0 - 0.9
