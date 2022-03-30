@@ -54,3 +54,30 @@ Is a func that returns floating-point random numbers in the range 0 (included) t
 
 console.log(Math.random());
 // Prints: 0 - 0.9
+---------------------------------------------------------------------------
+  
+#Math.floor
+/*
+Is a function that returns the largest integer less than or equal to the given number
+*/
+
+console.log(Math.floor(5.95));
+//Prints; 5
+---------------------------------------------------------------------------
+  
+#Null
+/*
+Is a primitive data type that presents intentional absence of value
+*/
+
+let x = null;
+---------------------------------------------------------------------------
+  
+#Strings
+/*
+Are primitive data types.
+Are a grp od characters surrounded by single or double quotes.
+*/
+
+let location = 'Nairobi, Kenya';
+let location = "Nairobi, Kenya";
