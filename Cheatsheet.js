@@ -94,3 +94,37 @@ let location = "Nairobi, Kenya";
 20 / 5 //division
 90 % 3 //mudulo
 ---------------------------------------------------------------------------
+  
+#Remainder / Modulo Operator
+/*
+Returns the # that remains after the right-hand # divides into the left-hand number as many times as it evenly can.
+*/
+
+const wksInYr = Math.floor(365/7);
+// cals # of wks in a year, rounds down to nearest integer
+
+const daysLeftOver = 365 % 7 ;
+// cals the # of days left over after 365 is divded by 7
+
+console.log("A year has " + wksInYr + " wks and " + daysLeftOver + " days");
+---------------------------------------------------------------------------
+  
+#Assignment Operators
+/*
+ assign values to the left operand based on the values of the right operand. 
+*/
+
+   
++= addition assignment
+-= subtraction assignment
+*= multiplication assignment
+/= division assignment
+
+let # = 200;
+//both statements will add 20
+# = # + 20;
+# += 20;
+
+console.log(#);
+//prints: 220
+
