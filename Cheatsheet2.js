@@ -21,7 +21,15 @@ const euro = '£';
 let income = 100000;
 
 console.log(euro + income + ' is more than avg income.');
-//Prints :£100000 is more than avg income.
+/*Prints :£100000 is more than avg income.
+OR
+*/
+let name = "Kyendy";
+const lost = false;
+var earning = 10000;
+
+console.log(name, lost, earning);
+//Prints: Kyendy, false, 10000
 ---------------------------------------------------------------------------------
   
 #Undefined
@@ -33,21 +41,6 @@ var a;
 
 console.log(a); //Prints undefined.
 ---------------------------------------------------------------------------------
-  
-#Variables
-/*
-Are containers for data sorted in computer mem. They are descriptive names that a user can call
-to assign a value and retrieve it.
-*/
-
-let name = "Kyendy";
-const lost = false;
-var earning = 10000;
-
-console.log(name, lost, earning);
-//Prints: Kyendy, false, 10000
----------------------------------------------------------------------------------
-  
 #Declaring variables
 /*
 var, let and const are the keywords to use when declaring variables.
