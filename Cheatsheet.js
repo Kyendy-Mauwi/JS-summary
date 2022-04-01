@@ -27,8 +27,8 @@ let message = 'Hey there 😉!';
 console.log(message.length);
 // Prints: 11
 
-console.log('Kyendy'.length);
-// Prints: 5
+console.log('Kyendy & Chip'.length);
+// Prints: 12
 ---------------------------------------------------------------------------
   
 #Data Instances
@@ -76,7 +76,7 @@ let x = null;
 #Strings
 /*
 Are primitive data types.
-Are a grp od characters surrounded by single or double quotes.
+Are a grp of characters surrounded by single or double quotes.
 */
 
 let location = 'Nairobi, Kenya';
