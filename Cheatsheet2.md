@@ -1,7 +1,7 @@
-#Template Literals
-/*
+# Template Literals
+
 Are strings that allow embedded expressions. they use backticks as shown.
-*/
+
 
 let name = "Kyendy";
 console.log(`Hello I'm, ${name}`);
@@ -10,11 +10,11 @@ console.log(`Hello I'm, ${name}`);
 console.log(`I am ${6+6} years old`);
 ---------------------------------------------------------------------------------
 
-#String Interpolation
-/*
+# String Interpolation
+
 Is the process of evaluating string literals containing one or more placeholders (expressions, variables, etc).
 Performed using template literals: text ${expression} text.
-*/
+
 
 let height = 169;
 
@@ -22,12 +22,12 @@ let height = 169;
 `Kyendy is $height cm tall`; //String interpolation
 ---------------------------------------------------------------------------------
 
-#Variables
-/*
+# Variables
+
 Used whenever there’s a need to store a piece of data.
 Contain data that can be used in the program or elsewhere.
 They ensure code reusablity since they can be used to replace the same value in multiple places.
-*/
+
 
 const euro = '£';
 let income = 100000;
@@ -44,21 +44,21 @@ console.log(name, lost, earning);
 //Prints: Kyendy, false, 10000
 ---------------------------------------------------------------------------------
   
-#Undefined
-/*
+# Undefined
+
 This is a primitive value that represents lack of defined value.
-*/
+
 
 var a;
 
 console.log(a); //Prints undefined.
 ---------------------------------------------------------------------------------
-#Declaring variables
-/*
+# Declaring variables
+
 var, let and const are the keywords to use when declaring variables.
 let - is used when the variable is changeable or can be reassigned 
 const - is used when we declare a variable with a constant value.
-*/
+
 
 var age;
 let weight;
