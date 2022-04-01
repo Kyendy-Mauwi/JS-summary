@@ -59,7 +59,6 @@ var, let and const are the keywords to use when declaring variables.
 let - is used when the variable is changeable or can be reassigned 
 const - is used when we declare a variable with a constant value.
 
-
 var age;
 let weight;
 const numberOfCars = 20;
