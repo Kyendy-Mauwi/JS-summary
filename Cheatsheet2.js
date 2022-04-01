@@ -1,3 +1,15 @@
+#Template Literals
+/*
+Are strings that allow embedded expressions. they use backticks as shown.
+*/
+
+let name = "Kyendy";
+console.log(`Hello I'm, ${name}`);
+//Prints: Hello I'm Kyendy
+
+console.log(`I am ${6+6} years old`);
+---------------------------------------------------------------------------------
+
 #String Interpolation
 /*
 Is the process of evaluating string literals containing one or more placeholders (expressions, variables, etc).
@@ -52,14 +64,4 @@ var age;
 let weight;
 const numberOfCars = 20;
 ---------------------------------------------------------------------------------
-  
-#Template Literals
-/*
-Are strings that allow embedded expressions. they use backticks as shown.
-*/
-
-let name = "Kyendy";
-console.log(`Hello I'm, ${name}`);
-//Prints: Hello I'm Kyendy
-
-console.log(`I am ${6+6} years old`);
+ 
