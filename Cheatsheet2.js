@@ -1,3 +1,15 @@
+#Template Literals
+/*
+Are strings that allow embedded expressions. they use backticks as shown.
+*/
+
+let name = "Kyendy";
+console.log(`Hello I'm, ${name}`);
+//Prints: Hello I'm Kyendy
+
+console.log(`I am ${6+6} years old`);
+---------------------------------------------------------------------------------
+
 #String Interpolation
 /*
 Is the process of evaluating string literals containing one or more placeholders (expressions, variables, etc).
@@ -21,7 +33,15 @@ const euro = '£';
 let income = 100000;
 
 console.log(euro + income + ' is more than avg income.');
-//Prints :£100000 is more than avg income.
+/*Prints :£100000 is more than avg income.
+OR
+*/
+let name = "Kyendy";
+const lost = false;
+var earning = 10000;
+
+console.log(name, lost, earning);
+//Prints: Kyendy, false, 10000
 ---------------------------------------------------------------------------------
   
 #Undefined
@@ -33,21 +53,6 @@ var a;
 
 console.log(a); //Prints undefined.
 ---------------------------------------------------------------------------------
-  
-#Variables
-/*
-Are containers for data sorted in computer mem. They are descriptive names that a user can call
-to assign a value and retrieve it.
-*/
-
-let name = "Kyendy";
-const lost = false;
-var earning = 10000;
-
-console.log(name, lost, earning);
-//Prints: Kyendy, false, 10000
----------------------------------------------------------------------------------
-  
 #Declaring variables
 /*
 var, let and const are the keywords to use when declaring variables.
@@ -59,14 +64,4 @@ var age;
 let weight;
 const numberOfCars = 20;
 ---------------------------------------------------------------------------------
-  
-#Template Literals
-/*
-Are strings that allow embedded expressions. they use backticks as shown.
-*/
-
-let name = "Kyendy";
-console.log(`Hello I'm, ${name}`);
-//Prints: Hello I'm Kyendy
-
-console.log(`I am ${6+6} years old`);
+ 
