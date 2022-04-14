@@ -10,3 +10,13 @@ for (var i = 1; i < 101; i++) {
     else if (i % 5 == 0) console.log("Buzz");
     else console.log(i); // And in case none of the conditions are true we use else to output the integer in this case i. This repeats until the loop ends. 
 }
+
+
+
+
+/*
+This solution for FizzBuzz is more complex and would require, relatively more programming knowledge than the previous solution. 
+
+
+for (let i = 1; i < 101;) console.log((i++ % 3 ? '' : 'fizz') + (i % 5 ? '' : 'buzz') || i)
+*/
