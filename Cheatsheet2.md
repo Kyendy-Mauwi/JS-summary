@@ -91,3 +91,8 @@ let displayText = 'Your ' + service  + ' bill is due on ' +  month + '.';
 console.log(displayText);
 // Prints: Your credit card bill is due on May 29th.
 ---------------------------------------------------------------------------------
+# Control Flow
+Control flow is the order in which statements are executed in a program.
+Statements are to be read from left-to-right, top-to-bottom in a prog.
+Control structures such as conditionals (if statements and the like) alter control flow by only executing blocks of code if certain conditions are met.
+They allow a prog to make decisions about which code is executed as the prog runs.
