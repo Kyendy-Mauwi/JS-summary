@@ -96,3 +96,22 @@ Control flow is the order in which statements are executed in a program.
 Statements are to be read from left-to-right, top-to-bottom in a prog.
 Control structures such as conditionals (if statements and the like) alter control flow by only executing blocks of code if certain conditions are met.
 They allow a prog to make decisions about which code is executed as the prog runs.
+---------------------------------------------------------------------------------
+# Logical Operator ||
+Checks two values and returns a boolean.
+If one or both values are true, it returns true, else returns false.
+A 	      B 	    A || B
+false 	false 	false
+false 	true 	  true
+true  	false 	true
+true  	true  	true
+---------------------------------------------------------------------------------
+# Ternary Operator
+Allows for a compact syntax in the case of binary decisions.
+It accepts a condition followed by a ? operator, and then two expressions separated by a :.
+If the condition evaluates to truthy, the first expression is executed, otherwise, the second expression is executed.
+
+let price = 20.5;
+let day = "Monday";
+ 
+day === "Monday" ? price -= 1.5 : price += 1.5;
