@@ -72,4 +72,22 @@ console.log(count); // Prints: undefined
 count = 20;
 console.log(count); // Prints: 20
 ---------------------------------------------------------------------------------
+# const Keyword
+const - used to declare a constant variable.
+It must have an assignment.
+Any attempt of re-assigning a const variable will result in JavaScript runtime error.
+
+const numberOfColumns = 5;
+numberOfColumns = 10;
+// TypeError: Impossible assignment to constant variable.
+---------------------------------------------------------------------------------
+# String Concatenation
+Multiple strings can be concatenated together using the + operator. 
+
+let service = 'credit card';
+let month = 'May 29th'; 
+let displayText = 'Your ' + service  + ' bill is due on ' +  month + '.';
  
+console.log(displayText);
+// Prints: Your credit card bill is due on May 29th.
+---------------------------------------------------------------------------------
