@@ -62,4 +62,14 @@ var age;
 let weight;
 const numberOfCars = 20;
 ---------------------------------------------------------------------------------
+# Let Keyword
+let -  creates a local variable in JavaScript & can be re-assigned.
+Initialization during the declaration of a let variable is optional.
+NB; will contain undefined if nothing is assigned to it.
+
+let count; 
+console.log(count); // Prints: undefined
+count = 20;
+console.log(count); // Prints: 20
+---------------------------------------------------------------------------------
  
