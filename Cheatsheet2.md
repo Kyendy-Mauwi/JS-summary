@@ -111,7 +111,7 @@ Allows for a compact syntax in the case of binary decisions.
 It accepts a condition followed by a ? operator, and then two expressions separated by a :.
 If the condition evaluates to truthy, the first expression is executed, otherwise, the second expression is executed.
 
-let price = 20.5;
+let price = 22.5;
 let day = "Monday";
  
 day === "Monday" ? price -= 1.5 : price += 1.5;
