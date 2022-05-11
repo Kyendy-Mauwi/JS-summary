@@ -36,3 +36,19 @@ if (isLoggedIn == true) {
 console.log(statusMessage);
  
 // Uncaught
+
+-------------------------------------------------------------------------------------------------
+# Global Variables
+
+JavaScript variables that are declared outside of blocks or functions can exist in the global scope, which means they are accessible throughout a program. Variables declared outside of smaller block or function scopes are accessible inside those smaller scopes.
+
+Note: It is best practice to keep global variables to a minimum.
+
+// Variable declared globally
+const color = 'blue';
+ 
+function printColor() {
+  console.log(color);
+}
+ 
+printColor(); // Prints: blue
