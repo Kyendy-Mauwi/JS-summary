@@ -7,7 +7,6 @@ const no = [1, 2, 3, 4];
 
 no.length //4
 -----------------------------------------------------------------------------------------
-
 # Index
 Elements in an array are arranged by index values, from 0 as the first index.
 
@@ -20,3 +19,28 @@ const array = [1, 2, 3, 4];
 console.log(array[0]); // 1
 
 coneole.log(array[3]); //4
+-----------------------------------------------------------------------------------------
+# Method .push()
+.push() method can be used to add elements to the end of an array.
+It modifies the original array and returns the new length of the array.
+
+// Adding elements
+
+const add = ['Kyendy', 'Mauwi'];
+
+add.push('Kenya');
+
+// Adding multiple elements
+const add = ['Kyendy', 'Mauwi'];
+
+add.push('Nairobi', 'Kenya', 'East Africa');
+-----------------------------------------------------------------------------------------
+# Method .pop()
+.pop() method is used to remove elements from an array and retrurns the element.
+
+const add = ['Kyendy', 'Mauwi'];
+
+const add =  add.pop(); // 'Mauwi'
+
+console.log(add); // ['Kyendy']
+
