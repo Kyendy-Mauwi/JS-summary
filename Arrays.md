@@ -43,4 +43,13 @@ const add = ['Kyendy', 'Mauwi'];
 const add =  add.pop(); // 'Mauwi'
 
 console.log(add); // ['Kyendy']
+-----------------------------------------------------------------------------------------
+# Mutable 
+JS arrays are mutable; their values can be changed.
 
+const ingredients = ['eggs', 'flour', 'chocolate'];
+ 
+const poppedIngredient = ingredients.pop(); // 'chocolate'
+
+console.log(ingredients); // ['eggs', 'flour']
+-----------------------------------------------------------------------------------------
