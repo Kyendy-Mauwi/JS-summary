@@ -74,3 +74,14 @@ do {
 } while (i < 5);
  
 // Prints: 0 1 3 6 10
+________________________________________________________________________________
+# Looping Through Arrays
+An array’s length can be evaluated with the **.length** property. This is extremely helpful for looping through arrays, as the **.length** of the array can be used as the stopping condition in the loop.
+
+for (let i = 0; i < array.length; i++){
+
+  console.log(array[i]);
+  
+}
+ 
+// Output: Every item in the array
