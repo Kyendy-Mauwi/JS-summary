@@ -1,8 +1,6 @@
 # Arrays
 
-Arrays are a list of ordered data. They hold items of any type of data.
-
-They are created using square brackets with individual elememts sepereated by commas.
+**Arrays are a list of ordered data. They hold items of any type of data.They are created using square brackets with individual elememts sepereated by commas.**
 -----------------------------------------------------------------------------------------
 
 # Property .length
