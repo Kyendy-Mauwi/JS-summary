@@ -1,5 +1,10 @@
 # Arrays
 
+Arrays are a list of ordered data. They hold items of any type of data.
+
+They are created using square brackets with individual elememts sepereated by commas.
+-----------------------------------------------------------------------------------------
+
 # Property .length
 .length property of JS array indicates the number of elements an array contains.
 
@@ -47,9 +52,10 @@ console.log(add); // ['Kyendy']
 # Mutable 
 JS arrays are mutable; their values can be changed.
 
-const ingredients = ['eggs', 'flour', 'chocolate'];
- 
-const poppedIngredient = ingredients.pop(); // 'chocolate'
+Even when declared const, the contrents can be manipulated by reassigning values using .push or .pop methods
 
-console.log(ingredients); // ['eggs', 'flour']
+const names = ['Alice', 'Bob'];
+ 
+names.push('Carl');
+// ['Alice', 'Bob', 'Carl']
 -----------------------------------------------------------------------------------------
